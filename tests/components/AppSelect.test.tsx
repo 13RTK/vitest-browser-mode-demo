@@ -18,6 +18,7 @@
 import { Theme } from '@radix-ui/themes';
 import { render } from 'vitest-browser-react';
 import AppSelect from '@/components/AppSelect';
+import '@radix-ui/themes/styles.css';
 
 // just render the Select component from radix ui
 describe('AppSelect', () => {
